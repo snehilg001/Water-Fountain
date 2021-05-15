@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#vid{
+ box-sizing: border-box;
+ border: 10px solid #0f1501;
+ border-radius: 10px;
+ visibility: hidden;
+ position: absolute;
+ right: 0px;
+}
+@media (max-width: 400px) {
+  .vid1 {
+    width: 70%;
+  }
+}
+@media (min-width: 401px){
+  .vid2 {
+    width: 40%;
+    height: 40%;
+  }
+}
